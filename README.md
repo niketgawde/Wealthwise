@@ -1,6 +1,24 @@
-# WealthWise MVP
+# 🚀 WealthWise MVP
 
-A minimal viable product (MVP) for a comprehensive personal finance and investment platform.
+[![Deploy Status](https://github.com/niketgawde/Wealthwise/workflows/Deploy%20WealthWise/badge.svg)](https://github.com/niketgawde/Wealthwise/actions)
+[![Backend](https://img.shields.io/badge/Backend-Render-46E3B7)](https://render.com)
+[![Frontend](https://img.shields.io/badge/Frontend-Vercel-000000)](https://vercel.com)
+
+> AI-powered investment portfolio management platform with real-time analytics and smart recommendations.
+
+## 🌐 Live Demo
+
+- **Frontend**: [Deploy your own!](https://vercel.com/new/clone?repository-url=https://github.com/niketgawde/Wealthwise&root-directory=frontend)
+- **Backend API**: [Deploy your own!](https://render.com/deploy?repo=https://github.com/niketgawde/Wealthwise)
+- **Demo Credentials**: `demo@wealthwise.com` / `demo123`
+
+## 🚀 Quick Deploy (Auto-Deploy Enabled)
+
+```bash
+./setup-auto-deploy.sh
+```
+
+A comprehensive personal finance and investment platform with automatic deployment.
 
 ## Features
 
