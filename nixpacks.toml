@@ -1,0 +1,3 @@
+# Root nixpacks configuration for monorepo
+[phases.setup]
+nixPkgs = ["nodejs-18_x", "npm-9_x"]
