@@ -7,13 +7,13 @@ async function seedDatabase() {
     await sequelize.sync({ force: true });
     console.log('Database synced successfully');
 
-    // Create test user  
+    // Create demo user with easy credentials
     const salt = await bcrypt.genSalt(10);
-    const hashedPassword = await bcrypt.hash('Niket@123', salt);
+    const hashedPassword = await bcrypt.hash('demo123', salt);
     const user = await User.create({
-      email: 'test@gm.com',
+      email: 'demo@wealthwise.com',
       password: hashedPassword,
-      firstName: 'Test',
+      firstName: 'Demo',
       lastName: 'User',
       phoneNumber: '+1234567890',
       dateOfBirth: new Date('1990-01-01'),
