@@ -7,7 +7,10 @@ console.log('🚀 Starting WealthWise Backend...');
 const dbPath = './database.sqlite';
 const shouldSeed = !fs.existsSync(dbPath);
 
-if (shouldSeed) {
+// Force re-seeding in production to ensure demo user exists
+const forceReseed = process.env.NODE_ENV === 'production' || process.env.FORCE_RESEED === 'true';
+
+if (shouldSeed || forceReseed) {
   console.log('📊 Seeding database with demo data...');
   exec('node seed-dummy-data.js', (error, stdout, stderr) => {
     if (error) {

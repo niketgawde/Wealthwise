@@ -19,3 +19,5 @@ services:
         generateValue: true
       - key: FRONTEND_URL
         value: https://wealth-wise1.netlify.app
+      - key: FORCE_RESEED
+        value: true
