@@ -11,7 +11,7 @@ async function seedDatabase() {
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash('demo123', salt);
     const user = await User.create({
-      email: 'demo@wealthwise.com',
+      email: 'demo4@wealthwise.com',
       password: hashedPassword,
       firstName: 'Demo',
       lastName: 'User',
