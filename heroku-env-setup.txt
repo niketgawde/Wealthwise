@@ -1,0 +1,12 @@
+# Heroku Environment Variables
+# Copy these to Heroku Dashboard > Settings > Config Vars
+
+NODE_ENV=production
+
+JWT_SECRET=your-super-secret-jwt-key-change-this-in-production-2024
+
+# Replace with your MongoDB Atlas connection string
+MONGO_URI=mongodb+srv://wealthwise-admin:YOUR_PASSWORD@cluster0.xxxxx.mongodb.net/wealthwise?retryWrites=true&w=majority
+
+# Will update after Vercel deployment
+FRONTEND_URL=https://wealthwise.vercel.app
