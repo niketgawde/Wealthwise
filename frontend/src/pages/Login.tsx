@@ -44,7 +44,7 @@ const Login: React.FC = () => {
 
   const fillDemoCredentials = () => {
     setFormData({
-      email: 'demo2@wealthwise.com',
+      email: 'demo3@wealthwise.com',
       password: 'demo123'
     });
   };
@@ -103,7 +103,7 @@ const Login: React.FC = () => {
             </div>
             <div className="mt-3 pt-3 border-t border-indigo-100">
               <p className="text-xs text-gray-600">
-                <span className="font-medium">Email:</span> demo2@wealthwise.com
+                <span className="font-medium">Email:</span> demo3@wealthwise.com
               </p>
               <p className="text-xs text-gray-600 mt-1">
                 <span className="font-medium">Password:</span> demo123
