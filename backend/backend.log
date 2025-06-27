@@ -1,0 +1,700 @@
+
+> wealthwise-backend@1.0.0 dev
+> nodemon server.js
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+Server running on port 5001
+Environment: development
+Frontend URL: http://localhost:3000
+Database connected successfully
+Database connection error: Error
+    at Database.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query.js:185:27)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query.js:183:12)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/sequelize.js:315:28
+    at async SQLiteQueryInterface.changeColumn (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query-interface.js:43:7)
+    at async User.sync (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/model.js:984:11)
+    at async Sequelize.sync (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/sequelize.js:377:9) {
+  name: 'SequelizeUniqueConstraintError',
+  errors: [
+    ValidationErrorItem {
+      message: 'id must be unique',
+      type: 'unique violation',
+      path: 'id',
+      value: null,
+      origin: 'DB',
+      instance: null,
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  parent: [Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: users_backup.id] {
+    errno: 19,
+    code: 'SQLITE_CONSTRAINT',
+    sql: 'INSERT INTO `users_backup` SELECT `id`, `email`, `password`, `first_name`, `last_name`, `phone_number`, `date_of_birth`, `risk_profile`, `kyc_completed`, `total_balance`, `created_at`, `updated_at` FROM `users`;'
+  },
+  original: [Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: users_backup.id] {
+    errno: 19,
+    code: 'SQLITE_CONSTRAINT',
+    sql: 'INSERT INTO `users_backup` SELECT `id`, `email`, `password`, `first_name`, `last_name`, `phone_number`, `date_of_birth`, `risk_profile`, `kyc_completed`, `total_balance`, `created_at`, `updated_at` FROM `users`;'
+  },
+  fields: [ 'id' ],
+  sql: 'INSERT INTO `users_backup` SELECT `id`, `email`, `password`, `first_name`, `last_name`, `phone_number`, `date_of_birth`, `risk_profile`, `kyc_completed`, `total_balance`, `created_at`, `updated_at` FROM `users`;'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:112:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:112:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+Server running on port 5001
+Environment: development
+Frontend URL: http://localhost:3000
+Database connected successfully
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:112:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+Server running on port 5001
+Environment: development
+Frontend URL: http://localhost:3000
+Database connected successfully
+New client connected: 6IM2LFvnaXPXMutgAAAB
+Client disconnected: 6IM2LFvnaXPXMutgAAAB
+New client connected: aPds8rfbXZngMIZKAAAE
+Client disconnected: aPds8rfbXZngMIZKAAAE
+New client connected: PHpUKFkGn6tKqmcZAAAG
+Client disconnected: PHpUKFkGn6tKqmcZAAAG
+New client connected: KZfu1-yRueQNOyj2AAAJ
+Client disconnected: KZfu1-yRueQNOyj2AAAJ
+New client connected: YN2KaXJL4b05kl7WAAAL
+Client YN2KaXJL4b05kl7WAAAL subscribed to AAPL
+Client YN2KaXJL4b05kl7WAAAL subscribed to GOOGL
+Client YN2KaXJL4b05kl7WAAAL subscribed to MSFT
+Client YN2KaXJL4b05kl7WAAAL subscribed to BTC
+Client YN2KaXJL4b05kl7WAAAL subscribed to ETH
+Error: Cannot call Sequelize.col() with array outside of order / group clause
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1707:15)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query-generator.js:143:67)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1697:23
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1695:38)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query-generator.js:143:67)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1083:26
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator.escapeAttributes (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1072:37)
+    at SQLiteQueryGenerator.selectQuery (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:880:28)
+Error: Cannot call Sequelize.col() with array outside of order / group clause
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1707:15)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query-generator.js:143:67)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1697:23
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1695:38)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query-generator.js:143:67)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1083:26
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator.escapeAttributes (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1072:37)
+    at SQLiteQueryGenerator.selectQuery (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:880:28)
+Client disconnected: YN2KaXJL4b05kl7WAAAL
+Error: Cannot call Sequelize.col() with array outside of order / group clause
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1707:15)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query-generator.js:143:67)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1697:23
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1695:38)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query-generator.js:143:67)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1083:26
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator.escapeAttributes (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1072:37)
+    at SQLiteQueryGenerator.selectQuery (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:880:28)
+Error: Cannot call Sequelize.col() with array outside of order / group clause
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1707:15)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query-generator.js:143:67)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1697:23
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1695:38)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query-generator.js:143:67)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1083:26
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator.escapeAttributes (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1072:37)
+    at SQLiteQueryGenerator.selectQuery (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:880:28)
+New client connected: 1-2pAcMsOi7N2EFkAAAO
+Client 1-2pAcMsOi7N2EFkAAAO subscribed to AAPL
+Client 1-2pAcMsOi7N2EFkAAAO subscribed to GOOGL
+Client 1-2pAcMsOi7N2EFkAAAO subscribed to MSFT
+Client 1-2pAcMsOi7N2EFkAAAO subscribed to BTC
+Client 1-2pAcMsOi7N2EFkAAAO subscribed to ETH
+Error: Cannot call Sequelize.col() with array outside of order / group clause
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1707:15)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query-generator.js:143:67)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1697:23
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1695:38)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query-generator.js:143:67)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1083:26
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator.escapeAttributes (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1072:37)
+    at SQLiteQueryGenerator.selectQuery (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:880:28)
+Error: Cannot call Sequelize.col() with array outside of order / group clause
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1707:15)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query-generator.js:143:67)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1697:23
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1695:38)
+    at SQLiteQueryGenerator.handleSequelizeMethod (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/sqlite/query-generator.js:143:67)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1083:26
+    at Array.map (<anonymous>)
+    at SQLiteQueryGenerator.escapeAttributes (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1072:37)
+    at SQLiteQueryGenerator.selectQuery (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/sequelize/lib/dialects/abstract/query-generator.js:880:28)
+(sequelize) Warning: Model attributes (userId) passed into finder method options of model Portfolio, but the options.where object is empty. Did you forget to use options.where?
+TypeError: Cannot read properties of undefined (reading 'find')
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/routes/investment.js:142:40
+Client disconnected: 1-2pAcMsOi7N2EFkAAAO
+New client connected: kgOOTLT8dpTiemq3AAAQ
+Client kgOOTLT8dpTiemq3AAAQ subscribed to AAPL
+Client kgOOTLT8dpTiemq3AAAQ subscribed to GOOGL
+Client kgOOTLT8dpTiemq3AAAQ subscribed to MSFT
+Client kgOOTLT8dpTiemq3AAAQ subscribed to BTC
+Client kgOOTLT8dpTiemq3AAAQ subscribed to ETH
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+Server running on port 5001
+Environment: development
+Frontend URL: http://localhost:3000
+Database connected successfully
+New client connected: oqM6WdCY0uqb-qoaAAAB
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:112:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+Server running on port 5001
+Environment: development
+Frontend URL: http://localhost:3000
+Database connected successfully
+New client connected: iDbcopEbUddtK546AAAB
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:113:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+Server running on port 5001
+Environment: development
+Frontend URL: http://localhost:3000
+Database connected successfully
+New client connected: z7TSZupJx0XEzragAAAB
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:113:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:113:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          [32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+Server running on port 5001
+Environment: development
+Frontend URL: http://localhost:3000
+Database connected successfully
+New client connected: C3miWtVxsLqrUtdpAAAB
+Client C3miWtVxsLqrUtdpAAAB subscribed to AAPL
+Client C3miWtVxsLqrUtdpAAAB subscribed to GOOGL
+Client C3miWtVxsLqrUtdpAAAB subscribed to MSFT
+Client C3miWtVxsLqrUtdpAAAB subscribed to BTC
+Client C3miWtVxsLqrUtdpAAAB subscribed to ETH
+Client disconnected: C3miWtVxsLqrUtdpAAAB
+TypeError: User.findById is not a function
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/routes/user.js:8:29
+    at Layer.handle [as handle_request] (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/route.js:149:13)
+    at authMiddleware (/Users/niketgawde/hackathon/wealthwise-mvp/backend/middleware/auth.js:13:5)
+    at Layer.handle [as handle_request] (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/index.js:346:12)
+TypeError: User.findById is not a function
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/routes/user.js:8:29
+    at Layer.handle [as handle_request] (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/route.js:149:13)
+    at authMiddleware (/Users/niketgawde/hackathon/wealthwise-mvp/backend/middleware/auth.js:13:5)
+    at Layer.handle [as handle_request] (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/niketgawde/hackathon/wealthwise-mvp/backend/node_modules/express/lib/router/index.js:346:12)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+Server running on port 5001
+Environment: development
+Frontend URL: http://localhost:3000
+Database connected successfully
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:112:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:112:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:112:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:112:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+Server running on port 5001
+Environment: development
+Frontend URL: http://localhost:3000
+Database connected successfully
+New client connected: veuIynymebFM6mocAAAB
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:112:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:113:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:113:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Object.<anonymous> (/Users/niketgawde/hackathon/wealthwise-mvp/backend/server.js:113:8)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1767:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v18.15.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+[dotenv@16.6.0] injecting env (5) from .env
+Server running on port 5001
+Environment: development
+Frontend URL: http://localhost:3000
+Database connected successfully
+New client connected: urHsu6FWlwDWhCZdAAAB
+Client urHsu6FWlwDWhCZdAAAB subscribed to AAPL
+Client urHsu6FWlwDWhCZdAAAB subscribed to GOOGL
+Client urHsu6FWlwDWhCZdAAAB subscribed to MSFT
+Client urHsu6FWlwDWhCZdAAAB subscribed to BTC
+Client urHsu6FWlwDWhCZdAAAB subscribed to ETH
