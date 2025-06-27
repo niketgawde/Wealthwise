@@ -1,14 +1,6 @@
 [build]
 builder = "nixpacks"
+buildCommand = "npm install"
 
 [deploy]
-startCommand = "cd backend && npm install && npm run deploy"
-
-[services.backend]
-build = "./backend"
-startCommand = "npm run deploy"
-
-[services.frontend]  
-build = "./frontend"
-buildCommand = "npm install && npm run build"
-startCommand = "npx serve -s build -l 3000"
+startCommand = "npm run start:backend"
