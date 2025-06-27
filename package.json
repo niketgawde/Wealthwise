@@ -1,18 +1,8 @@
 {
-  "name": "wealthwise-mvp",
+  "name": "wealthwise-backend",
   "version": "1.0.0",
-  "description": "WealthWise MVP - AI-powered investment portfolio management",
-  "private": true,
+  "description": "WealthWise Backend API",
   "scripts": {
-    "install": "cd backend && npm install && cd ../frontend && npm install",
-    "build": "cd frontend && npm run build",
-    "start:backend": "cd backend && npm run deploy",
-    "start:frontend": "cd frontend && npm run serve",
-    "start": "npm run start:backend",
-    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run start --prefix frontend\""
-  },
-  "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=9.0.0"
+    "start": "./start.sh"
   }
 }
