@@ -5,7 +5,7 @@ services:
     region: oregon
     plan: free
     buildCommand: cd backend && npm install
-    startCommand: cd backend && node start.js
+    startCommand: node backend/start.js
     healthCheckPath: /health
     autoDeploy: true
     branch: main
