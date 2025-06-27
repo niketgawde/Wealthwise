@@ -1,0 +1,1032 @@
+
+> frontend@0.1.0 start
+> react-scripts start
+
+(node:58779) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:58779) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Login.tsx
+  Line 37:9:  'fillDemoCredentials' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Login.tsx
+  Line 37:9:  'fillDemoCredentials' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Layout.tsx
+  Line 18:22:  'BellIconSolid' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Layout.tsx
+  Line 18:22:  'BellIconSolid' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Layout.tsx
+  Line 18:22:  'BellIconSolid' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Layout.tsx
+  Line 18:22:  'BellIconSolid' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Dashboard.tsx
+  Line 11:3:    'CurrencyDollarIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 159:32:  Unexpected template string expression           no-template-curly-in-string
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Dashboard.tsx
+  Line 11:3:    'CurrencyDollarIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 159:32:  Unexpected template string expression           no-template-curly-in-string
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/components/RecommendationCard.tsx
+  Line 7:3:  'ExclamationTriangleIcon' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 9:3:  'XCircleIcon' is defined but never used              @typescript-eslint/no-unused-vars
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 91:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+ERROR in src/pages/Settings.tsx:24:24
+TS2339: Property 'phoneNumber' does not exist on type 'User'.
+    22 |     lastName: user?.lastName || '',
+    23 |     email: user?.email || '',
+  > 24 |     phoneNumber: user?.phoneNumber || '',
+       |                        ^^^^^^^^^^^
+    25 |   });
+    26 |
+    27 |   const [securityData, setSecurityData] = useState({
+
+ERROR in src/pages/Settings.tsx:56:27
+TS2339: Property 'phoneNumber' does not exist on type 'User'.
+    54 |         lastName: user.lastName || '',
+    55 |         email: user.email || '',
+  > 56 |         phoneNumber: user.phoneNumber || '',
+       |                           ^^^^^^^^^^^
+    57 |       });
+    58 |     }
+    59 |   }, [user]);
+
+ERROR in src/pages/Settings.tsx:89:21
+TS2339: Property 'changePassword' does not exist on type '{ getProfile: () => Promise<AxiosResponse<any, any>>; updateProfile: (data: any) => Promise<AxiosResponse<any, any>>; completeKYC: () => Promise<...>; }'.
+    87 |
+    88 |     try {
+  > 89 |       await userAPI.changePassword({
+       |                     ^^^^^^^^^^^^^^
+    90 |         currentPassword: securityData.currentPassword,
+    91 |         newPassword: securityData.newPassword,
+    92 |       });
+
+ERROR in src/pages/Settings.tsx:107:21
+TS2339: Property 'updatePreferences' does not exist on type '{ getProfile: () => Promise<AxiosResponse<any, any>>; updateProfile: (data: any) => Promise<AxiosResponse<any, any>>; completeKYC: () => Promise<...>; }'.
+    105 |
+    106 |     try {
+  > 107 |       await userAPI.updatePreferences(preferences);
+        |                     ^^^^^^^^^^^^^^^^^
+    108 |       setMessage({ type: 'success', text: 'Preferences updated successfully!' });
+    109 |     } catch (error: any) {
+    110 |       setMessage({ type: 'error', text: error.response?.data?.error || 'Failed to update preferences' });
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+ERROR in src/pages/Settings.tsx:24:24
+TS2339: Property 'phoneNumber' does not exist on type 'User'.
+    22 |     lastName: user?.lastName || '',
+    23 |     email: user?.email || '',
+  > 24 |     phoneNumber: user?.phoneNumber || '',
+       |                        ^^^^^^^^^^^
+    25 |   });
+    26 |
+    27 |   const [securityData, setSecurityData] = useState({
+
+ERROR in src/pages/Settings.tsx:56:27
+TS2339: Property 'phoneNumber' does not exist on type 'User'.
+    54 |         lastName: user.lastName || '',
+    55 |         email: user.email || '',
+  > 56 |         phoneNumber: user.phoneNumber || '',
+       |                           ^^^^^^^^^^^
+    57 |       });
+    58 |     }
+    59 |   }, [user]);
+
+ERROR in src/pages/Settings.tsx:89:21
+TS2339: Property 'changePassword' does not exist on type '{ getProfile: () => Promise<AxiosResponse<any, any>>; updateProfile: (data: any) => Promise<AxiosResponse<any, any>>; completeKYC: () => Promise<...>; }'.
+    87 |
+    88 |     try {
+  > 89 |       await userAPI.changePassword({
+       |                     ^^^^^^^^^^^^^^
+    90 |         currentPassword: securityData.currentPassword,
+    91 |         newPassword: securityData.newPassword,
+    92 |       });
+
+ERROR in src/pages/Settings.tsx:107:21
+TS2339: Property 'updatePreferences' does not exist on type '{ getProfile: () => Promise<AxiosResponse<any, any>>; updateProfile: (data: any) => Promise<AxiosResponse<any, any>>; completeKYC: () => Promise<...>; }'.
+    105 |
+    106 |     try {
+  > 107 |       await userAPI.updatePreferences(preferences);
+        |                     ^^^^^^^^^^^^^^^^^
+    108 |       setMessage({ type: 'success', text: 'Preferences updated successfully!' });
+    109 |     } catch (error: any) {
+    110 |       setMessage({ type: 'error', text: error.response?.data?.error || 'Failed to update preferences' });
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+ERROR in src/pages/Settings.tsx:24:24
+TS2339: Property 'phoneNumber' does not exist on type 'User'.
+    22 |     lastName: user?.lastName || '',
+    23 |     email: user?.email || '',
+  > 24 |     phoneNumber: user?.phoneNumber || '',
+       |                        ^^^^^^^^^^^
+    25 |   });
+    26 |
+    27 |   const [securityData, setSecurityData] = useState({
+
+ERROR in src/pages/Settings.tsx:56:27
+TS2339: Property 'phoneNumber' does not exist on type 'User'.
+    54 |         lastName: user.lastName || '',
+    55 |         email: user.email || '',
+  > 56 |         phoneNumber: user.phoneNumber || '',
+       |                           ^^^^^^^^^^^
+    57 |       });
+    58 |     }
+    59 |   }, [user]);
+
+ERROR in src/pages/Settings.tsx:89:21
+TS2339: Property 'changePassword' does not exist on type '{ getProfile: () => Promise<AxiosResponse<any, any>>; updateProfile: (data: any) => Promise<AxiosResponse<any, any>>; completeKYC: () => Promise<...>; }'.
+    87 |
+    88 |     try {
+  > 89 |       await userAPI.changePassword({
+       |                     ^^^^^^^^^^^^^^
+    90 |         currentPassword: securityData.currentPassword,
+    91 |         newPassword: securityData.newPassword,
+    92 |       });
+
+ERROR in src/pages/Settings.tsx:107:21
+TS2339: Property 'updatePreferences' does not exist on type '{ getProfile: () => Promise<AxiosResponse<any, any>>; updateProfile: (data: any) => Promise<AxiosResponse<any, any>>; completeKYC: () => Promise<...>; }'.
+    105 |
+    106 |     try {
+  > 107 |       await userAPI.updatePreferences(preferences);
+        |                     ^^^^^^^^^^^^^^^^^
+    108 |       setMessage({ type: 'success', text: 'Preferences updated successfully!' });
+    109 |     } catch (error: any) {
+    110 |       setMessage({ type: 'error', text: error.response?.data?.error || 'Failed to update preferences' });
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+ERROR in src/pages/Settings.tsx:24:24
+TS2339: Property 'phoneNumber' does not exist on type 'User'.
+    22 |     lastName: user?.lastName || '',
+    23 |     email: user?.email || '',
+  > 24 |     phoneNumber: user?.phoneNumber || '',
+       |                        ^^^^^^^^^^^
+    25 |   });
+    26 |
+    27 |   const [securityData, setSecurityData] = useState({
+
+ERROR in src/pages/Settings.tsx:56:27
+TS2339: Property 'phoneNumber' does not exist on type 'User'.
+    54 |         lastName: user.lastName || '',
+    55 |         email: user.email || '',
+  > 56 |         phoneNumber: user.phoneNumber || '',
+       |                           ^^^^^^^^^^^
+    57 |       });
+    58 |     }
+    59 |   }, [user]);
+
+ERROR in src/pages/Settings.tsx:89:21
+TS2339: Property 'changePassword' does not exist on type '{ getProfile: () => Promise<AxiosResponse<any, any>>; updateProfile: (data: any) => Promise<AxiosResponse<any, any>>; completeKYC: () => Promise<...>; }'.
+    87 |
+    88 |     try {
+  > 89 |       await userAPI.changePassword({
+       |                     ^^^^^^^^^^^^^^
+    90 |         currentPassword: securityData.currentPassword,
+    91 |         newPassword: securityData.newPassword,
+    92 |       });
+
+ERROR in src/pages/Settings.tsx:107:21
+TS2339: Property 'updatePreferences' does not exist on type '{ getProfile: () => Promise<AxiosResponse<any, any>>; updateProfile: (data: any) => Promise<AxiosResponse<any, any>>; completeKYC: () => Promise<...>; }'.
+    105 |
+    106 |     try {
+  > 107 |       await userAPI.updatePreferences(preferences);
+        |                     ^^^^^^^^^^^^^^^^^
+    108 |       setMessage({ type: 'success', text: 'Preferences updated successfully!' });
+    109 |     } catch (error: any) {
+    110 |       setMessage({ type: 'error', text: error.response?.data?.error || 'Failed to update preferences' });
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Settings.tsx
+  Line 19:10:  'showUpgradeModal' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 20:10:  'upgradeLoading' is assigned a value but never used    @typescript-eslint/no-unused-vars
+  Line 43:10:  'paymentData' is assigned a value but never used       @typescript-eslint/no-unused-vars
+  Line 133:9:  'handleUpgrade' is assigned a value but never used     @typescript-eslint/no-unused-vars
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Settings.tsx
+  Line 19:10:  'showUpgradeModal' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 20:10:  'upgradeLoading' is assigned a value but never used    @typescript-eslint/no-unused-vars
+  Line 43:10:  'paymentData' is assigned a value but never used       @typescript-eslint/no-unused-vars
+  Line 133:9:  'handleUpgrade' is assigned a value but never used     @typescript-eslint/no-unused-vars
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/PriceTicker.tsx
+  Line 49:6:   React Hook useEffect has missing dependencies: 'subscribeToAsset', 'symbols', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 49:20:  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                      react-hooks/exhaustive-deps
+
+src/pages/Portfolio.tsx
+  Line 101:6:  React Hook useEffect has missing dependencies: 'onPortfolioUpdate', 'portfolio', 'subscribeToAsset', and 'unsubscribeFromAsset'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/services/websocket.ts
+  Line 107:1:  Assign instance to a variable before exporting as module default  import/no-anonymous-default-export
+
+webpack compiled with 1 warning
+No issues found.
